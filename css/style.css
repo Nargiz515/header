@@ -1,0 +1,42 @@
+
+header{
+    background: linear-gradient(#d5d5d5, #ededed, #fdfdfd, #ffff);
+    text-align: center;
+}
+.container{
+    max-width: 940px;
+    margin: auto;
+    padding: 27px 0 24px 0;
+}
+
+#menu li{
+    font-size: 11px;
+    line-height: 14px;
+    color: #b7b7b7;
+    font-family: "Tahoma";
+    padding: 0 11px 8px 11px;
+}
+#menu li a{
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    font-weight: bold;
+    font-family: "Georgia";
+}
+#menu {
+     padding: 22px 0 0 0;
+     }
+@media only screen and (min-width:768px){
+    header{
+        text-align:initial;
+    }
+    #menu{
+        float:right;
+    }
+    #menu li {
+      display: inline-block;
+      border-left: 1px dotted #d6d6d6;
+    }
+
+}
